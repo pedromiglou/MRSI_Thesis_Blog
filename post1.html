@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -30,6 +30,10 @@
 
   <!-- Google Web Fonts  -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
+
+  <!-- Syntax Highlighter  -->
+  <link rel="stylesheet" type="text/css" href="css/syntax/shCore.css">
+  <link rel="stylesheet" type="text/css" href="css/syntax/shThemeDefault.css">
 </head>
 
 <body>
@@ -50,46 +54,40 @@
             <div class="row">
 
               <div class="sub-title">
-                <h1>Master Thesis Progress Blog</h1>
-                <h3>Pedro Amaral</h3>
+                <a href="index.html" title="Go to Home Page">
+                  <h2>Back Home</h2>
+                </a>
               </div>
 
               <div class="col-md-12 content-page">
-
-                <!-- Blog Post Start -->
                 <div class="col-md-12 blog-post">
+
+                  <!-- Post Headline Start -->
                   <div class="post-title">
-                    <h1>Start of the Work</h1>
+                    <h1>First Semester</h1>
                   </div>
+                  <!-- Post Headline End -->
+
+                  <!-- Post Detail Start -->
                   <div class="post-info">
                     <span>February 13, 2023 - February 19, 2023 / by <a href="https://github.com/pedromiglou"
                         target="_blank">Pedro Amaral</a></span>
                   </div>
-                  <p></p>
-                  <!--<a href="single.html" class="button button-style button-anim fa fa-long-arrow-right"><span>Read More</span></a>-->
-                </div>
-                <!-- Blog Post End -->
+                  <!-- Post Detail End -->
 
-                <!-- Blog Post Start -->
-                <div class="col-md-12 blog-post">
-                  <div class="post-title">
-                    <a href="single.html">
-                      <h1>First Semester</h1>
-                    </a>
-                  </div>
-                  <div class="post-info">
-                    <span>Up to February 12, 2023 / by <a href="https://github.com/pedromiglou" target="_blank">Pedro
-                        Amaral</a></span>
-                  </div>
-                  <p>Description of the work progress made in the first semester</p>
-                  <a href="post1.html" class="button button-style button-anim fa fa-long-arrow-right"><span>Read
-                      More</span></a>
-                </div>
-                <!-- Blog Post End -->
+                  <p>The first semester consisted of the following tasks:</p>
+                  <ul>
+                    <li>
+                      <p>State of the Art Review</p>
+                    </li>
+                    <li>
+                      <p>Test Bosch Sensor</p>
+                    </li>
+                    <li>
+                      <p>Porposal Writing and Presentation</p>
+                    </li>
+                  </ul>
 
-                <div class="col-md-12 text-center">
-                  <a href="javascript:void(0)" id="load-more-post" class="load-more-button">Load</a>
-                  <div id="post-end-message"></div>
                 </div>
               </div>
             </div>
@@ -124,6 +122,25 @@
 
   <!-- Main Javascript File  -->
   <script type="text/javascript" src="js/scripts.js"></script>
+
+  <!-- Syntax Highlighter Javascript File  -->
+  <script type="text/javascript" src="js/syntax/shCore.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushCss.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushJScript.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushPerl.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushPhp.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushPlain.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushPython.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushRuby.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushSql.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushVb.js"></script>
+  <script type="text/javascript" src="js/syntax/shBrushXml.js"></script>
+
+  <!-- Syntax Highlighter Call Function -->
+  <script type="text/javascript">
+    SyntaxHighlighter.config.clipboardSwf = 'js/syntax/clipboard.swf';
+    SyntaxHighlighter.all();
+  </script>
 
 </body>
 
